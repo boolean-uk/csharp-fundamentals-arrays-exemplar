@@ -1,7 +1,7 @@
-﻿using csharp_fundamentals_arrays.Main;
+﻿using csharp_fundamentals_arrays_exemplar.Main;
 using NUnit.Framework;
 
-namespace csharp_fundamentals_arrays.Test
+namespace csharp_fundamentals_arrays_exemplar.Test
 {
     public class ExerciseTest
     {
@@ -13,7 +13,7 @@ namespace csharp_fundamentals_arrays.Test
         }
 
         [Test]
-        public void shouldChange17To68()
+         public void shouldChange17To68()
         {
             Assert.AreEqual(68, this.exercise.one()[2]);
         }
@@ -50,4 +50,5 @@ namespace csharp_fundamentals_arrays.Test
             Assert.AreEqual(3.14f, floats[2]);
         }
     }
+
 }
