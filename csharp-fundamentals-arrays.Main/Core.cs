@@ -75,10 +75,11 @@ namespace csharp_fundamentals_arrays_exemplar.Main
             // WRITE YOUR CODE BETWEEN THIS LINE...
             
             int result = 0;
-            
-            numbers.ToList<int>().ForEach(x => {
-                result += x;
-            });
+            result = numbers.Sum();
+
+            //numbers.ToList<int>().ForEach(x => {
+            //    result += x;
+            //});
             
             // ... AND THIS LINE
 
